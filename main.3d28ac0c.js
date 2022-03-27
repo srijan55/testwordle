@@ -1,4 +1,4 @@
-this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
+this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
     "use strict";
 
     function a(e) {
