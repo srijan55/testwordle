@@ -1150,6 +1150,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
                             "dhaal",
                             "plane",
                             "sahan",
+"vivek",
                             "praan",
                             "magar",
                             "jagah",
