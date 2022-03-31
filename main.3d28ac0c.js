@@ -2468,7 +2468,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
                                         }
                                     })), d += "\n")
                                 })), {
-                                    text: "".concat(l, "\n \n").concat(d.trimEnd()).concat("\n <html><a href='http://tinyurl.com/hwordle'>Hinglish Wordle</a></html> \n")
+                                    text: "".concat(l, "\n \n").concat(d.trimEnd()).concat("\n tinyurl.com/hwordle \n")
                                 }
                             }({
                                 evaluations: e.gameApp.evaluations,
