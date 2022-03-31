@@ -878,7 +878,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
         var e = navigator.userAgent;
         return e.match(/chrome|chromium|crios/i) ? "chrome" : e.match(/firefox|fxios/i) ? "firefox" : e.match(/safari/i) ? "safari" : e.match(/opr\//i) ? "opera" : e.match(/edg/i) ? "edge" : "No browser detection"
     }
-    var _a = "mailto:nytgames@nytimes.com";
+    var _a = "mailto:upadhyaya@yahoo.com";
 
     function Ea(e) {
         return e.charAt(0).toUpperCase() + e.slice(1)
@@ -898,7 +898,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
             subject: a,
             body: t
         })
-    }(), '" title="nytgames@nytimes.com">Email</a>\n        </div>\n      </div>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Community</div>\n        </div>\n        <div class="control">\n          <a href="https://twitter.com/NYTGames" target="blank" title="@NYTGames">Twitter</a>\n        </div>\n      </div>\n      <div class="setting">\n      <div class="text">\n        <div class="title">Questions?</div>\n      </div>\n      <div class="control">\n        <a href="https://help.nytimes.com/hc/en-us/articles/360029050872-Word-Games-and-Logic-Puzzles#h_01FVGCB2Z00ZQMDMCYWBPWJNXB" target="blank">FAQ</a>\n      </div>\n    </div>\n    </section>\n  </div>\n  <div id="footnote">\n    <div id="copyright">&#169; ').concat((new Date).getFullYear(), ' The New York Times Company</div>\n    <div>\n      <div id="puzzle-number"></div>\n    </div>\n  </div>\n');
+    }(), '" title="upadhyaya@yahoo.com">Email</a>\n        </div>\n      </div>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Community</div>\n        </div>\n        <div class="control">\n          <a href="https://twitter.com/NYTGames" target="blank" title="@NYTGames">Twitter</a>\n        </div>\n      </div>\n      <div class="setting">\n      <div class="text">\n        <div class="title">Questions?</div>\n      </div>\n      <div class="control">\n        <a href="https://help.nytimes.com/hc/en-us/articles/360029050872-Word-Games-and-Logic-Puzzles#h_01FVGCB2Z00ZQMDMCYWBPWJNXB" target="blank">FAQ</a>\n      </div>\n    </div>\n    </section>\n  </div>\n  <div id="footnote">\n    <div id="copyright">&#169; ').concat((new Date).getFullYear(), ' Hinglish Wordle</div>\n    <div>\n      <div id="puzzle-number"></div>\n    </div>\n  </div>\n');
     var Ta = function(e) {
         r(t, e);
         var a = h(t);
@@ -913,7 +913,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
             key: "connectedCallback",
             value: function() {
                 var e = this;
-                this.shadowRoot.appendChild(La.content.cloneNode(!0)), this.shadowRoot.querySelector("#puzzle-number").textContent = "#".concat(this.gameApp.dayOffset), this.shadowRoot.addEventListener("game-switch-change", (function(a) {
+                this.shadowRoot.appendChild(La.content.cloneNode(!0)), this.shadowRoot.querySelector("#puzzle-number").textContent = "#".concat(this.gameApp.dayOffset-283), this.shadowRoot.addEventListener("game-switch-change", (function(a) {
                     a.stopPropagation();
                     var s = a.detail,
                         t = s.name,
