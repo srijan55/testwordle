@@ -2468,7 +2468,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
                                         }
                                     })), d += "\n")
                                 })), {
-                                    text: "".concat(l, "\n tiny \n").concat(d.trimEnd())
+                                    text: "".concat(l, "\n \n").concat(d.trimEnd()).concat("\n tiny \n")
                                 }
                             }({
                                 evaluations: e.gameApp.evaluations,
