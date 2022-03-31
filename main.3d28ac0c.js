@@ -898,7 +898,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
             subject: a,
             body: t
         })
-     }(), '" title="upadhyaya@yahoo.com">Email</a>\n        </div>\n      </div>\n              <div class="setting">\n      <div class="text">\n        <div class="title">---</div>\n      </div>\n      <div class="control">\n        <a href="" target="">---</a>\n      </div>\n    </div>\n    </section>\n  </div>\n       <div id="footnote">\n    <div id="copyright">&#169; ').concat((new Date).getFullYear(), ' Hinglish Wordle</div>\n    <div>\n      <div id="puzzle-number"></div>\n    </div>\n  </div>\n');        
+     }(), '" title="upadhyaya@yahoo.com">Email</a>\n        </div>\n      </div>\n                    </section>\n  </div>\n       <div id="footnote">\n    <div id="copyright">&#169; ').concat((new Date).getFullYear(), ' Hinglish Wordle</div>\n    <div>\n      <div id="puzzle-number"></div>\n    </div>\n  </div>\n');        
     var Ta = function(e) {
         r(t, e);
         var a = h(t);
