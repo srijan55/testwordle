@@ -2441,7 +2441,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
                                     o = e.isWin,
                                     r = JSON.parse(window.localStorage.getItem(j)),
                                     i = JSON.parse(window.localStorage.getItem(S)),
-                                    l = "Hinglish Wordle ".concat(s);
+                                    l = "Hinglishh Wordle ".concat(s);
                                 l += " ".concat(o ? t : "X", "/").concat(6), n && (l += "*");
                                 var d = "";
                                 return a.forEach((function(e) {
