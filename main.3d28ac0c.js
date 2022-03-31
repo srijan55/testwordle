@@ -2488,52 +2488,22 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
         }(u(HTMLElement));
     customElements.define("game-stats", Vs);
     var Fs = document.createElement("template"),
-        Ws = [{
-            id: "spelling-bee",
-            name: "Spelling Bee",
-            url: "/puzzles/spelling-bee?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav",
-            backgroundImage: "var(--spelling-bee)"
+        Ws = [{            
         }, {
-            id: "crossword",
-            name: "The Crossword",
-            url: "/crosswords/game/daily?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav",
-            backgroundImage: "var(--daily)"
         }, {
-            id: "mini",
-            name: "The Mini",
-            url: "/crosswords/game/mini?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav",
-            backgroundImage: "var(--mini)"
         }, {
-            id: "gameplay-stories",
-            name: "Gameplay Stories",
-            url: "/column/wordplay?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav"
         }, {
-            id: "more-games",
-            name: "More Games",
-            url: "/puzzles?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav"
         }].map((function(e) {
             return "\n    <a href=".concat(e.url, " id=").concat(e.id, '>\n      <div class="nav-item" style="--hover-color: var(--color-nav-hover)">\n        <span style="background-image: ').concat(e.backgroundImage, '; background-size: 20px;"class="nav-icon"></span>\n          ').concat(e.name, " \n      </div>\n    </a>\n    ")
         })).join(""),
         Ys = [{
-            id: "nyt",
-            name: "The New York Times",
-            url: "https://www.nytimes.com/?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav",
-            backgroundImage: "var(--nyt)"
+
         }, {
-            id: "cooking",
-            name: "New York Times Cooking",
-            url: "https://cooking.nytimes.com",
-            backgroundImage: "var(--cooking)"
+
         }, {
-            id: "wirecutter",
-            name: "New York Times Wirecutter",
-            url: "https://www.nytimes.com/wirecutter/?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav",
-            backgroundImage: "var(--wirecutter)"
+
         }, {
-            id: "athletic",
-            name: "The Athletic",
-            url: "https://theathletic.com/?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav",
-            backgroundImage: "var(--athletic)"
+
         }].map((function(e) {
             return "\n    <a href=".concat(e.url, " id=").concat(e.id, '>\n      <div class="nav-item" style="--hover-color: var(--color-nav-hover)">\n        <span style="background-image: ').concat(e.backgroundImage, '; background-size: 20px;"class="nav-icon"></span>\n          ').concat(e.name, " \n      </div>\n    </a>\n    ")
         })).join("");
