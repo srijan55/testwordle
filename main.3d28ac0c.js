@@ -2435,7 +2435,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle =  function(e) {
                             a.preventDefault(), a.stopPropagation();
                             Ns(function(e) {
                                 var a = e.evaluations,
-                                    s = e.dayOffset-3,
+                                    s = e.dayOffset-283,
                                     t = e.rowIndex,
                                     n = e.isHardMode,
                                     o = e.isWin,
